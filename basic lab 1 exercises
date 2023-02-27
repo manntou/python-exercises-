@@ -1,0 +1,8 @@
+## Write a program that prompts the user to enter an area of a circle as a floating point number and prints the corresponding radius. 
+## Round the result to one decimal place. Note: you can assume that the user enters a valid value.
+
+area = float(input('Enter an area of a circle: '))
+
+pi = 3.142 
+radius = ((area / pi)**0.5)
+print('The radius is ' + str(round(radius,1)))
